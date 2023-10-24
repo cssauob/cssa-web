@@ -1,0 +1,98 @@
+.cssa-logo-img{
+    max-height: 200px;  
+    width:auto;
+}
+.navbar{
+    padding: 40px 1px;
+    
+}
+/* 菜单栏 */
+.navbar-nav{
+  
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    background: var(--color-grey);
+}
+.nav-link {
+    color: var(--color-text);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin: .4rem;
+   
+}
+
+.nav-link:last-child {
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.nav-link:hover {
+    background: var(--color-highlight);
+    border-radius: 5px;
+    color: var(--color-text);
+}
+
+.nav-link:last-child:hover {
+    background: var(--color-highlight);
+    color: var(--color-text);
+
+}
+
+@media(max-width: 991px) {
+    .cssa-logo-img{
+        max-width:250px;  
+    
+    }
+    .navbar-collapse,
+    .navbar-nav {
+        background: var(--color-grey);
+      
+        border-radius: 15px;
+        text-align: center;
+        box-shadow: var(--box-shadow);
+        
+     
+     
+    }
+  
+
+    .nav-link {
+        
+        margin: .3rem 0;
+        padding: .5rem;
+      
+    }
+
+    .nav-link:last-child {
+        background: var(--color-highlight);
+        color: var(--color-text);
+ 
+        
+
+
+    }
+}
+
+.navbar-toggler{
+    border: none;
+   padding-right: 30px;
+    padding-top: 1.0rem;
+    padding-bottom: 0.1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    max-width: 5px;
+ 
+    
+    
+}
+.navbar-toggler-icon{
+  
+    background: url(../../assets/menu.png) no-repeat;
+    background-size: contain; 
+    width: 20px;  
+    height: 30px; 
+   
+ 
+}
