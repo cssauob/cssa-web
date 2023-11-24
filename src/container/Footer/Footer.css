@@ -6,6 +6,10 @@ footer {
     border-top-left-radius: 45px;
     color: #fff;
 }
+.img-fixed-size{
+    width: 200px;
+    height: auto;
+}
 
 ul.navbar-footer {
     display: flex;

@@ -97,7 +97,7 @@ color: var(--color-dark);
 
     .readmore {
         position: absolute;
-        bottom: -7em;
+        bottom: -1.5em;
     }
 
 }
@@ -112,7 +112,7 @@ color: var(--color-dark);
 
     .readmore {
         position: absolute;
-        bottom: -5em;
+        bottom: -1.5em;
         font-size: 16px;
 
     }

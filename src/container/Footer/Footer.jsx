@@ -8,7 +8,7 @@ const Footer = () => {
     <footer>
       <div className="row align-items-center">
         <div className="col-md-2 col-12">
-          <img src={images.cssalogo} alt="logo" className="img-fluid" />
+          <img src={images.cssalogo} alt="logo" className="img-fixed-size" />
         </div>
         <div className="col-md-8 col-12 ">
           <ul className="navbar-footer">

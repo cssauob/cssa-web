@@ -7,6 +7,8 @@ import Process from './Process/Process';
 import Services from './Services/Services';
 import Team from './Team/Team';
 import CTA from './CTA/CTA';
+import PaginationList from './Services/PaginationList'
+
 
 export {
     Slider,
@@ -18,4 +20,6 @@ export {
     Process,
     Services,
     Team,
+    PaginationList,
+
 }

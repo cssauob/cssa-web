@@ -1,0 +1,8 @@
+.btn-positivus {
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 5px 10px; 
+    width: max-content;
+  
+  }

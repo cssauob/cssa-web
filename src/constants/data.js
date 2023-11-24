@@ -1,9 +1,10 @@
 import images from './images';
 
+
 const Menu = [
     {
         text: '首页',
-        link: '#home',
+        link: 'home',
     },
     {
         text: '关于学联',
@@ -11,7 +12,7 @@ const Menu = [
     },
     {
         text: '学联活动',
-        link: '#activities',
+        link: 'activity',
     },
     {
         text: '联系我们',
@@ -23,6 +24,13 @@ const Menu = [
         link: '#login',
     }
 ];
+const AdminMenu=[
+    {url: '/', name: '首页', iconType: 'home'},
+    {url: '/managerUser', name: '用户管理', iconType: 'usergroup-delete'},
+    {url: '/newArticle', name: '发文', iconType: 'file-text'},
+    {url: '/managerTags', name: '标签管理', iconType: 'tags-o'},
+    {url: '/managerArticle', name: '文章管理', iconType: 'edit'},
+]
 const ServicesData = [
     {
         titleone: '英国伯明翰大学第四届校园歌手大赛即将启航！',
@@ -152,4 +160,4 @@ const Slider = [
         tagline: '"最近没有打折哦 来店记得带现金"',
     },
 ];
-export default { Menu, CaseStudies, WorkingProcess, Team, Slider, ServicesData };
+export default { Menu, CaseStudies, WorkingProcess, Team, Slider, ServicesData,AdminMenu };
